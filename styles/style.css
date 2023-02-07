@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Poppins:wght@500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------- 
+    top banners styles 
+--------------------------*/
+.top-banner {
+    background: #161616;
+    border-radius: 30px;
+    width: 1100px;
+    height: 560px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+
+}
+
+.banners {
+    display: flex;
+}
+
+.banner {
+    margin-left: 106px;
+    margin-top: 40px;
+    margin-bottom: 111px;
+    padding-right: 150px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.banner p {
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.button {
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 5px;
+    width: 187px;
+    height: 56px;
+    text-decoration: none;
+    padding: 10px 25px;
+    margin-top: 50px;
+}
+
+.banner-img {
+    margin-top: 100px;
+    margin-right: 83px;
+    margin-bottom: 0px;
+    width: 581px;
+    height: 613px;
+}
+
+/*---------------------------- 
+    blog and cricket match styles 
+----------------------------*/
+
+
+.blog-info {
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    margin-left: 100px;
+}
+
+.title-button {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #161616;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    margin: 30px 30px;
+}
+
+.blog-button {
+    background: #DD0000;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    margin: 30px 30px;
+}
+
+/* cricket match styles */
+.blogs {
+    display: flex;
+    margin: 0px;
+}
+
+.cricket-match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    column-gap: 20px;
+}
+
+.match-details {
+    box-shadow: 5px 5px 5px 5px gray;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 310px;
+}
+
+.blog-img img {
+    border-radius: 10px 10px 0px 0px;
+    width: 312px;
+    height: 175px;
+    margin-bottom: 20px;
+}
+
+.match-info {
+    padding: 10px;
+}
+
+.match-info a {
+    border: 1px solid #161616;
+    color: #161616;
+    border-radius: 5px;
+    width: 100px;
+    height: 32px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 20px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+h3 {
+
+    font-size: 18px;
+    color: #161616;
+    margin-bottom: 0px;
+}
+
+.flex-width {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 0px;
+}
+
+
+/*--------------------
+     footer styles 
+----------------------*/
+
+
+.footer {
+    background: #161616;
+    height: 300px;
+    margin: 0px;
+}
+
+.bottom-footer p {
+    margin-bottom: 0px;
+    color: #FFFFFF;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    left: 140px;
+    top: 2330px;
+    margin-top: 20px;
+}
+
+.content-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content-footer a {
+    text-decoration: none;
+    color: #B9B9B9;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+
+/*..................
+ Media Queries
+....................*/
+
+/* mobile phon */
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+
+}
+
+}
